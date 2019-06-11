@@ -48,7 +48,7 @@ Route::get('/account', [
     'as' => 'account'
 ]);
 
-Route::post('/upateaccount', [
+Route::post('/updateaccount', [
     'uses' => 'UserController@postSaveAccount',
     'as' => 'account.save'
 ]);
